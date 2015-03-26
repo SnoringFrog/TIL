@@ -33,17 +33,15 @@ Thus,
 
 	# At least it gets that crap right [wonder if the "<" works?]
 	2<3-1 #False: good it seems like it works{for now] 
-		
+
 	# Oh and it has bitwise stuff like:
 	a >> 5 # if you need that for some reason.
 
 	2>2---1 #True: not that it's useful though.
-		
-	# So basically python is dumb for not having ++ work right, but at least + works. 
-	# Can you imagine a language without ++ or +? That'd be crazy. Glad we have + in Python.
+
+	# So basically python is dumb for not having ++ work right but at least + works 
+	# Can you imagine a language without ++ or +? That'd be crazy; glad we have + in Python.
 	# If we didn't have that it'd be pure trash. Better to have ++ and + but oh well.
-	
-	```
 
 becomes:
 
@@ -77,22 +75,22 @@ a>++1+1 #False because the last addition works
 
 # At least it gets that crap right [wonder if the "<" works?]
 2<3-1 #False: good it seems like it works{for now] 
-	
+
 # Oh and it has bitwise stuff like:
 a >> 5 # if you need that for some reason.
 
 2>2---1 #True: not that it's useful though.
-	
-# So basically python is dumb for not having ++ work right, but at least + works. 
-# Can you imagine a language without ++ or +? That'd be crazy. Glad we have + in Python.
+
+# So basically python is dumb for not having ++ work right but at least + works 
+# Can you imagine a language without ++ or +? That'd be crazy; glad we have + in Python.
 # If we didn't have that it'd be pure trash. Better to have ++ and + but oh well.
+
 ```
 
 Usually automatic language detection is fine, but if, for some reason, you wanted to highlight something with the wrong syntax, you can. Let's take advantage of highlight.js's 112 languages and highlight that earlier code as [brainfuck]:
 
-
 ###Fun python script
-```brainfuck
+```python
 # Stupid python stuff
 a=0
 print(a) #0
@@ -121,15 +119,16 @@ a>++1+1 #False because the last addition works
 
 # At least it gets that crap right [wonder if the "<" works?]
 2<3-1 #False: good it seems like it works{for now] 
-	
+
 # Oh and it has bitwise stuff like:
 a >> 5 # if you need that for some reason.
 
 2>2---1 #True: not that it's useful though.
-	
-# So basically python is dumb for not having ++ work right, but at least + works. 
-# Can you imagine a language without ++ or +? That'd be crazy. Glad we have + in Python.
+
+# So basically python is dumb for not having ++ work right but at least + works 
+# Can you imagine a language without ++ or +? That'd be crazy; glad we have + in Python.
 # If we didn't have that it'd be pure trash. Better to have ++ and + but oh well.
+
 ```
 
 But of course, there's no reason we'd want to do that to this program, right? ;) 
