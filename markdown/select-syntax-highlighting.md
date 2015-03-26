@@ -90,7 +90,7 @@ a >> 5 # if you need that for some reason.
 Usually automatic language detection is fine, but if, for some reason, you wanted to highlight something with the wrong syntax, you can. Let's take advantage of highlight.js's 112 languages and highlight that earlier code as [brainfuck]:
 
 ###Fun python script
-```python
+```brainfuck
 # Stupid python stuff
 a=0
 print(a) #0
