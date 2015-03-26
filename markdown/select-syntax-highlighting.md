@@ -133,14 +133,17 @@ a >> 5 # if you need that for some reason.
 
 But of course, there's no reason we'd want to do that to this program, right? ;) 
 
-The point is, sometimes automatic detection doesn't always work, like with this bit of brainfuck (doesn't do anything useful):
+I chose brainfuck for a couple reasons.
 
+1. To show that highlight.js has support for some languages you might not expect (you can see all 112 at their [demo])
+2. Because brainfuck typically doesn't get highlighted unless you specify it, as we can see below
+
+No syntax specification:
 ```
 +++>+++++[>++<-]<[-]comment>++--
 ```
 
 but when we specify the language:
-
 ```brainfuck
 +++>+++++[>++<-]<[-]comment>++--
 ```
