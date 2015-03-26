@@ -2,9 +2,9 @@
 
 When I find a new tool/script from a developer, I often check out their other work to see what they've got. Thought it'd be nice to do that with Homebrew taps too, so I looked up how to do that. 
 
-TAP=thoughtbot/homebrew-formulae # replace with the tap you want, but make sure to add the 'homebrew-' prefix
 
 ```bash
+TAP=thoughtbot/homebrew-formulae # replace with the tap you want, but make sure to add the 'homebrew-' prefix
 ls $(brew --prefix)/Library/Taps/$TAP/Formula/*.rb` || ls $(brew --prefix)/Library/Taps/$TAP/*.rb
 ```
 
