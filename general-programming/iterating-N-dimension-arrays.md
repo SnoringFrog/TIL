@@ -2,7 +2,7 @@
 
 With multi-dimensional arrays, you might think the following two programs would operate in about the same amount of time:
 
-```
+```C
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -16,7 +16,7 @@ main () {
 }
 ```
 
-```
+```C
 #include <stdio.h>
 #include <stdlib.h>
 	
